@@ -1,4 +1,4 @@
-#baseurl = "/"
+baseurl = "/"
 title = "贫瘠之地的十字路口"
 defaultContentLanguage = "zh-cn"
 paginate = "10" # Number of posts per page
