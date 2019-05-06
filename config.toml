@@ -1,0 +1,78 @@
+#baseurl = "/"
+title = "贫瘠之地的十字路口"
+defaultContentLanguage = "zh-cn"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+hasCJKLanguage = true
+summaryLength = "145" 
+
+[Author] # Used in authorbox
+  name = "Athlon7"
+  bio = "新晋bug写手"
+  avatar = "img/avatar.png"
+
+[Params]
+  subtitle = "暂时荒凉的升级宝地" # Subtitle of your site. Used in site header
+  description = "用写作记录成长" # Site description. Used in meta description
+  #copyright = "John Doe" # copyright holder, otherwise will use site title
+  #opengraph = true # Enable OpenGraph if true
+  #twitter_cards = true # Enable Twitter Cards if true
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  # post_meta = ["date", "categories", "translations"] # Order of post meta information. Use ["none"] to turn off completely.
+  #postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+  #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+  dateformat = "2006-01-02" # change the format of dates
+  #mathjax = true # Enable MathJax
+  #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  
+  post_related = true #是否开启 相关文章 索引功能
+  share_open = true #是否开启文章尾部分享
+  baidu_push = true #是否开启百度自动网页推送
+  #baidu_count_id = "c79473" #百度统计id
+  isso_open = true # "是否开启isso评论系统"
+  friend_link_open = true #是否显示友情链接
+  #share_top_show = true #是否展示菜单右上角分享按钮
+  
+[[Params.friendlink]]   #友情链接
+  link = "https://youendless.com"   #链接地址
+  title = "君无止境"                 #链接显示文字
+  desc = "一个专注于容器技术的博客"    #链接站点描述文字(暂未使用，待开发)
+
+[Params.isso] #isso评论插件
+  prefix = "isso"  #请求的前缀，默认isso，那么isso服务的请求url则是baseURL/isso/，可以填写一个完整路径https://youendless.com/isso/
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages", "friendlink"]
+
+[Params.widgets]
+  recent_num = 10 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
+  
+[menu]
+[[menu.main]]
+  identifier = "post"
+	name = "博客"
+	title = "技术博客文章"
+	url = "/post/"
+
+[[menu.main]]
+  identifier = "about"
+	name = "关于我"
+	title = "博客作者的资料信息"
+	url = "/about/"
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  linkedin = "username"
+  telegram = "username"
+  github = "Athlon7"
+  email = "athlon7@126.com"
