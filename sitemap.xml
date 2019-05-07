@@ -3,17 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://athlon7.github.io/categories/</loc>
+    <loc>/post/</loc>
+    <lastmod>2019-05-07T22:16:30+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://athlon7.github.io/tags/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2019-05-07T22:16:30+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://athlon7.github.io/</loc>
+    <loc>/post/%E6%96%B0%E5%8D%9A%E5%AE%A2%E5%BC%80%E7%AF%87/</loc>
+    <lastmod>2019-05-07T22:16:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%9E%8Ebb/</loc>
+    <lastmod>2019-05-07T22:16:30+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-05-07T22:16:30+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   

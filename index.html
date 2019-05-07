@@ -60,13 +60,30 @@
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main list" role="main">
-		<div class="warning">
-			<svg class="warning__icon icon icon-files" viewBox="0 0 384 384" width="96" height="96" fill="#ddd"><path d="m368 64h-224-16v16 288 16h16 224 16v-16-288-16zm-16 288h-192v-256h192zm-320-320h192v16h32v-32-16h-16-224-16v16 288 16h16 96v-32h-80zm144 272h160v-32h-160zm0-64h160v-32h-160zm0-64h160v-32h-160zm-128 64h64v-32h-64zm0-64h64v-32h-64zm0-64h64v-32h-64z"/></svg>
-			<h3 class="warning__headline">You don't have any posts yet!</h3>
-			<p class="warning__text">As posts are added in <b>content/post</b> folder, they'll appear here.</p>
-		</div>
-	
+<main class="main list" role="main"><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/%E6%96%B0%E5%8D%9A%E5%AE%A2%E5%BC%80%E7%AF%87/" rel="bookmark">
+			新博客开篇
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2019-05-07T22:16:30">2019-05-07</time>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text">212 字</time>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		欢迎来到十字路口 几经周折终于搭好了个人博客，虽然很简陋，但是作为记录也足够了，重要的是内容，不是吗？ 由于公司内网不允许发外网博客，之前的python学习笔记已经写了一半，暂时也不太好迁移出来，这边就先接着写了。不得不吐槽偌大一公司的内部博客，做的实在是不忍直视，丑陋、难用，MarkDown
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/post/%E6%96%B0%E5%8D%9A%E5%AE%A2%E5%BC%80%E7%AF%87/">阅读全文…</a>
+	</div>
+</article>
 </main>
 
 
@@ -78,8 +95,22 @@
 			<input class="widget-search__field" type="search" placeholder="搜索..." value="" name="q" aria-label="搜索...">
 		</label>
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://athlon7.github.io" />
+		<input type="hidden" name="sitesearch" value="/" />
 	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">近期文章</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/%E6%96%B0%E5%8D%9A%E5%AE%A2%E5%BC%80%E7%AF%87/">新博客开篇</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">标签</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/%e7%9e%8ebb" title="瞎bb">瞎bb (1)</a>
+	</div>
 </div>
 <div class="widget-social widget">
 	<h4 class="widget-social__title widget__title">社群</h4>
